@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: Arad;
+    src: url('../fonts/Arad.ttf');
+}
+
+@theme {
+    --font-arad: Arad;
+}
